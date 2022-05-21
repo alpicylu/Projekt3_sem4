@@ -1,4 +1,6 @@
 notatki.txt
 /build
 /debug
-
+plan.txt
+.vscode
+src/test.cpp
