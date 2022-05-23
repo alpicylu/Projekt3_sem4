@@ -1,10 +1,11 @@
-// #include <iostream>
+#pragma once
+#include "gamestate.hh"
+#include <memory>
+#include <vector>
 
-// template <typename T>
-// class Node
-// {
-// private:
-    
-// };
-
-// #include "node.tpp"
+template <int N>
+class Node
+{
+    GameState<N> current_gs;
+    int game_value;
+};
